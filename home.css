@@ -135,7 +135,7 @@
   flex-direction: column;
 }
 .home-header {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -708,6 +708,7 @@
 }
 .home-text68 {
   width: 100%;
+  font-size: 20px;
   text-align: center;
 }
 .home-reveal {
