@@ -612,96 +612,7 @@
   align-self: center;
   align-items: center;
   flex-direction: column;
-}
-.home-footer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: 13px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
   background-color: #AA82FF;
-}
-.home-header3 {
-  height: 301px;
-  font-size: 50px;
-  text-align: center;
-  font-weight: 600;
-}
-.home-text47 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text48 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text49 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text50 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text51 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text52 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text53 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text54 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text55 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text56 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text57 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text58 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text59 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text60 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
-}
-.home-text61 {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
 }
 .home-content2 {
   gap: var(--dl-space-space-threeunits);
@@ -721,11 +632,15 @@
   text-align: center;
   line-height: 27px;
 }
-.home-text63 {
+.home-text54 {
   font-style: normal;
   font-weight: 600;
 }
-.home-text64 {
+.home-text55 {
+  font-style: normal;
+  font-weight: 600;
+}
+.home-text56 {
   font-style: normal;
   font-weight: 600;
 }
@@ -809,10 +724,6 @@
     gap: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-footer {
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
   .home-content2 {
     gap: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -863,10 +774,6 @@
     gap: var(--dl-space-space-twounits);
   }
   .home-header2 {
-    font-size: 30px;
-    line-height: 36px;
-  }
-  .home-header3 {
     font-size: 30px;
     line-height: 36px;
   }
