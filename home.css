@@ -606,6 +606,13 @@
   background-size: cover;
   background-image: url("public/playground_assets/grainy-1500w.png");
 }
+.home-container16 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
 .home-footer {
   width: 100%;
   display: flex;
@@ -616,7 +623,7 @@
   background-color: #AA82FF;
 }
 .home-header3 {
-  height: 175px;
+  height: 261px;
   font-size: 50px;
   text-align: center;
   font-weight: 600;
