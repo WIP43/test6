@@ -1,125 +1,3 @@
-.navigation-links2-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.navigation-links2-text1 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text2 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text3 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text4 {
-  margin-left: var(--dl-space-space-twounits);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 767px) {
-  .navigation-links2-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .navigation-links2-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}
-
 .simpsons-container {
   width: 100%;
   display: flex;
@@ -129,94 +7,68 @@
   flex-direction: column;
   background-color: #D9D9D9;
 }
-.simpsons-header {
+.simpsons-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  position: relative;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.08);
-}
-.simpsons-container1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  background-color: rgb(52, 50, 50);
 }
 .simpsons-navlink {
   display: contents;
 }
-.simpsons-image {
-  width: auto;
-  height: 75px;
+.simpsons-logo {
+  width: 10%;
+  height: 10%;
   text-decoration: none;
 }
-.simpsons-container2 {
+.simpsons-desktop-menu {
+  display: flex;
+}
+.simpsons-nav {
   flex: 0 0 auto;
-  width: auto;
-  height: auto;
+  color: #D9D9D9;
   display: flex;
-  flex-direction: column;
-}
-.simpsons-container3 {
-  display: flex;
-  flex-direction: column;
-}
-.simpsons-container4 {
-  display: flex;
-  flex-direction: column;
-}
-.simpsons-navlink1 {
-  width: 200px;
-  height: 50px;
-  display: flex;
+  align-self: center;
+  align-items: center;
   flex-direction: row;
+  justify-content: center;
+}
+.simpsons-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
   text-decoration: none;
-  background-color: #ffffff;
 }
-.simpsons-icon {
-  width: 16px;
-  height: 16px;
+.simpsons-text {
+  font-size: 20px;
 }
-.simpsons-navlink2 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.simpsons-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.simpsons-icon02 {
-  width: 16px;
-  height: 16px;
-}
-.simpsons-navlink3 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.simpsons-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.simpsons-icon04 {
-  width: 16px;
-  height: 16px;
-}
-.simpsons-navlink4 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.simpsons-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.simpsons-icon06 {
-  width: 16px;
-  height: 16px;
+.simpsons-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.simpsons-text2 {
+  color: #800080;
+  font-size: 20px;
 }
 .simpsons-btn-group {
   display: flex;
@@ -224,25 +76,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.simpsons-link {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  background-color: #800080;
-}
-.simpsons-icon08 {
-  width: 16px;
-  height: 16px;
-}
 .simpsons-burger-menu {
   display: none;
+  align-items: center;
+  justify-content: center;
 }
-.simpsons-icon10 {
+.simpsons-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  display: none;
 }
 .simpsons-mobile-menu {
   top: 0px;
@@ -252,75 +93,117 @@
   display: none;
   padding: 32px;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
 }
-.simpsons-nav {
+.simpsons-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.simpsons-container5 {
+.simpsons-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.simpsons-image1 {
-  height: 2rem;
+.simpsons-navlink05 {
+  display: contents;
 }
-.simpsons-close-mobile-menu {
+.simpsons-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.simpsons-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.simpsons-icon12 {
+.simpsons-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.simpsons-icon14 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.simpsons-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.simpsons-icon16 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.simpsons-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.simpsons-icon18 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+.simpsons-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.simpsons-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.simpsons-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.simpsons-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.simpsons-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
 }
 .simpsons-div {
   width: 1000px;
   height: 700px;
 }
-@media(max-width: 991px) {
-  .simpsons-icon10 {
-    display: flex;
-  }
-}
 @media(max-width: 767px) {
-  .simpsons-header {
+  .simpsons-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .simpsons-desktop-menu {
+    display: none;
+  }
+  .simpsons-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .simpsons-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .simpsons-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .simpsons-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .simpsons-text2 {
+    margin-left: var(--dl-space-space-unit);
   }
   .simpsons-btn-group {
     display: none;
   }
   .simpsons-burger-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+  .simpsons-link1 {
+    text-decoration: none;
   }
 }
 @media(max-width: 479px) {
-  .simpsons-header {
+  .simpsons-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .simpsons-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .simpsons-icon {
+    width: 55px;
+    height: 55px;
   }
   .simpsons-mobile-menu {
     padding: 16px;

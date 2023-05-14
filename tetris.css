@@ -1,125 +1,3 @@
-.navigation-links2-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.navigation-links2-text1 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text2 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text3 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text4 {
-  margin-left: var(--dl-space-space-twounits);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 767px) {
-  .navigation-links2-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .navigation-links2-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}
-
 .tetris-container {
   width: 100%;
   display: flex;
@@ -129,94 +7,68 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.tetris-header {
+.tetris-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  position: relative;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.08);
-}
-.tetris-container1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  background-color: rgb(52, 50, 50);
 }
 .tetris-navlink {
   display: contents;
 }
-.tetris-image {
-  width: auto;
-  height: 75px;
+.tetris-logo {
+  width: 10%;
+  height: 10%;
   text-decoration: none;
 }
-.tetris-container2 {
+.tetris-desktop-menu {
+  display: flex;
+}
+.tetris-nav {
   flex: 0 0 auto;
-  width: auto;
-  height: auto;
+  color: #D9D9D9;
   display: flex;
-  flex-direction: column;
-}
-.tetris-container3 {
-  display: flex;
-  flex-direction: column;
-}
-.tetris-container4 {
-  display: flex;
-  flex-direction: column;
-}
-.tetris-navlink1 {
-  width: 200px;
-  height: 50px;
-  display: flex;
+  align-self: center;
+  align-items: center;
   flex-direction: row;
+  justify-content: center;
+}
+.tetris-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
   text-decoration: none;
-  background-color: #ffffff;
 }
-.tetris-icon {
-  width: 16px;
-  height: 16px;
+.tetris-text {
+  font-size: 20px;
 }
-.tetris-navlink2 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.tetris-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.tetris-icon02 {
-  width: 16px;
-  height: 16px;
-}
-.tetris-navlink3 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.tetris-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.tetris-icon04 {
-  width: 16px;
-  height: 16px;
-}
-.tetris-navlink4 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.tetris-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.tetris-icon06 {
-  width: 16px;
-  height: 16px;
+.tetris-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.tetris-text2 {
+  color: #800080;
+  font-size: 20px;
 }
 .tetris-btn-group {
   display: flex;
@@ -224,25 +76,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.tetris-link {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  background-color: #800080;
-}
-.tetris-icon08 {
-  width: 16px;
-  height: 16px;
-}
 .tetris-burger-menu {
   display: none;
+  align-items: center;
+  justify-content: center;
 }
-.tetris-icon10 {
+.tetris-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  display: none;
 }
 .tetris-mobile-menu {
   top: 0px;
@@ -252,74 +93,116 @@
   display: none;
   padding: 32px;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
 }
-.tetris-nav {
+.tetris-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.tetris-container5 {
+.tetris-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.tetris-image1 {
-  height: 2rem;
+.tetris-navlink05 {
+  display: contents;
 }
-.tetris-close-mobile-menu {
+.tetris-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.tetris-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.tetris-icon12 {
+.tetris-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.tetris-icon14 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.tetris-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.tetris-icon16 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.tetris-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.tetris-icon18 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+.tetris-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.tetris-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.tetris-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.tetris-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.tetris-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
 }
 .tetris-div {
   align-self: center;
 }
-@media(max-width: 991px) {
-  .tetris-icon10 {
-    display: flex;
-  }
-}
 @media(max-width: 767px) {
-  .tetris-header {
+  .tetris-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .tetris-desktop-menu {
+    display: none;
+  }
+  .tetris-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .tetris-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .tetris-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .tetris-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .tetris-text2 {
+    margin-left: var(--dl-space-space-unit);
   }
   .tetris-btn-group {
     display: none;
   }
   .tetris-burger-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+  .tetris-link1 {
+    text-decoration: none;
   }
 }
 @media(max-width: 479px) {
-  .tetris-header {
+  .tetris-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .tetris-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .tetris-icon {
+    width: 55px;
+    height: 55px;
   }
   .tetris-mobile-menu {
     padding: 16px;

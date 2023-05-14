@@ -1,125 +1,3 @@
-.navigation-links2-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.navigation-links2-text1 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text2 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text3 {
-  margin-left: var(--dl-space-space-twounits);
-}
-.navigation-links2-text4 {
-  margin-left: var(--dl-space-space-twounits);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 767px) {
-  .navigation-links2-nav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .navigation-links2-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .navigation-links2-text4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}
-
 .sims-bo-container {
   width: 100%;
   display: flex;
@@ -129,94 +7,68 @@
   flex-direction: column;
   background-color: #D9D9D9;
 }
-.sims-bo-header {
+.sims-bo-navbar-interactive {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  position: relative;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.08);
-}
-.sims-bo-container1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+  background-color: rgb(52, 50, 50);
 }
 .sims-bo-navlink {
   display: contents;
 }
-.sims-bo-image {
-  width: auto;
-  height: 75px;
+.sims-bo-logo {
+  width: 10%;
+  height: 10%;
   text-decoration: none;
 }
-.sims-bo-container2 {
+.sims-bo-desktop-menu {
+  display: flex;
+}
+.sims-bo-nav {
   flex: 0 0 auto;
-  width: auto;
-  height: auto;
+  color: #D9D9D9;
   display: flex;
-  flex-direction: column;
-}
-.sims-bo-container3 {
-  display: flex;
-  flex-direction: column;
-}
-.sims-bo-container4 {
-  display: flex;
-  flex-direction: column;
-}
-.sims-bo-navlink1 {
-  width: 200px;
-  height: 50px;
-  display: flex;
+  align-self: center;
+  align-items: center;
   flex-direction: row;
+  justify-content: center;
+}
+.sims-bo-navlink01 {
+  color: rgb(217, 217, 217);
+  text-align: center;
   text-decoration: none;
-  background-color: #ffffff;
 }
-.sims-bo-icon {
-  width: 16px;
-  height: 16px;
+.sims-bo-text {
+  font-size: 20px;
 }
-.sims-bo-navlink2 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.sims-bo-navlink02 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.sims-bo-icon02 {
-  width: 16px;
-  height: 16px;
-}
-.sims-bo-navlink3 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.sims-bo-navlink03 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.sims-bo-icon04 {
-  width: 16px;
-  height: 16px;
-}
-.sims-bo-navlink4 {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+.sims-bo-navlink04 {
+  font-size: 20px;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
-  background-color: #ffffff;
 }
-.sims-bo-icon06 {
-  width: 16px;
-  height: 16px;
+.sims-bo-link {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.sims-bo-text2 {
+  color: #800080;
+  font-size: 20px;
 }
 .sims-bo-btn-group {
   display: flex;
@@ -224,25 +76,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.sims-bo-link {
-  width: 200px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  background-color: #800080;
-}
-.sims-bo-icon08 {
-  width: 16px;
-  height: 16px;
-}
 .sims-bo-burger-menu {
   display: none;
+  align-items: center;
+  justify-content: center;
 }
-.sims-bo-icon10 {
+.sims-bo-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-  display: none;
 }
 .sims-bo-mobile-menu {
   top: 0px;
@@ -252,75 +93,117 @@
   display: none;
   padding: 32px;
   z-index: 100;
-  position: absolute;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
 }
-.sims-bo-nav {
+.sims-bo-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.sims-bo-container5 {
+.sims-bo-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.sims-bo-image1 {
-  height: 2rem;
+.sims-bo-navlink05 {
+  display: contents;
 }
-.sims-bo-close-mobile-menu {
+.sims-bo-image {
+  height: 2rem;
+  text-decoration: none;
+}
+.sims-bo-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.sims-bo-icon12 {
+.sims-bo-icon2 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.sims-bo-icon14 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.sims-bo-nav2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
-.sims-bo-icon16 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
+.sims-bo-navlink06 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.sims-bo-icon18 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
+.sims-bo-navlink07 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sims-bo-navlink08 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sims-bo-navlink09 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sims-bo-link1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.sims-bo-icon-group {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
 }
 .sims-bo-div {
   width: 1000px;
   height: 700px;
 }
-@media(max-width: 991px) {
-  .sims-bo-icon10 {
-    display: flex;
-  }
-}
 @media(max-width: 767px) {
-  .sims-bo-header {
+  .sims-bo-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .sims-bo-desktop-menu {
+    display: none;
+  }
+  .sims-bo-navlink02 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .sims-bo-navlink03 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .sims-bo-navlink04 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .sims-bo-link {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .sims-bo-text2 {
+    margin-left: var(--dl-space-space-unit);
   }
   .sims-bo-btn-group {
     display: none;
   }
   .sims-bo-burger-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  }
+  .sims-bo-link1 {
+    text-decoration: none;
   }
 }
 @media(max-width: 479px) {
-  .sims-bo-header {
+  .sims-bo-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .sims-bo-logo {
+    width: 15%;
+    height: 15%;
+  }
+  .sims-bo-icon {
+    width: 55px;
+    height: 55px;
   }
   .sims-bo-mobile-menu {
     padding: 16px;
